@@ -1,0 +1,55 @@
+.card-body {
+  height: 220px;
+  min-height: 220px;
+
+  .card-title {
+    color: $color--white;
+    font-family: 'Gotham Bold', Arial, sans-serif;
+    font-size: 23px;
+  }
+  .card-text {
+    color: $color--white;
+    font-family: 'Gotham Book', Arial, sans-serif;
+    font-size: 15px;
+  }
+}
+
+.card-container {
+  margin-left: 7em;
+
+  @media screen and (max-width: $break-medium) {
+    margin-left: 3em;
+  }
+  @media screen and (max-width: $break-small) {
+    margin-left: 0;
+  }
+}
+
+.carousel-indicators--green {
+    margin-left: 3em !important;
+}
+
+.carousel-multi-item-2 .col-md-3 {
+  @media screen and (min-width: 768px) {
+    width: 30%;
+  }
+}
+
+.card img {
+  border-radius: 0 !important;
+}
+
+.bg {
+  &--green {
+    background-color: #0c4723 !important;
+  }
+  &--red {
+    background-color: #a71e2f !important;
+  }
+  &--pink {
+    background-color: #f76360 !important;
+  }
+  &--yellow {
+    background-color: #f5e446 !important;
+  }
+}

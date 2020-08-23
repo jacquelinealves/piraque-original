@@ -1,0 +1,26 @@
+.description {
+  color: $color--gray;
+  font-family: 'Gotham Book', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 1.3em;
+  padding: 70px 100px 90px 100px;
+
+  @media screen and (max-width: $break-medium) {
+    font-size: 1.5em;
+    padding: 2em 2.5em;
+  }
+  @media screen and (max-width: $break-small) {
+    font-size: 1.3em;
+    padding: 1.5em 1em;
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  strong {
+    font-family: 'Gotham Bold', Arial, sans-serif;
+  }
+
+}

@@ -1,0 +1,47 @@
+footer {
+  background-color: $color--green;
+  color: $color--white;
+  font-family: 'Gotham Book', Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 35px 0;
+
+  @media screen and (max-width: $break-medium) {
+    text-align: center;
+  }
+
+  span {
+    display: block;
+    font-size: .8em;
+  }
+
+  a {
+    &:nth-child(3) {
+      img {
+        margin: 0;
+      }
+    }
+
+    img.icon {
+      margin-right: 2em;
+
+      @media screen and (max-width: $break-medium) {
+        margin-top: 3em;
+        margin-right: 1em;
+      }
+    }
+
+    img.logo {
+      @media screen and (max-width: $break-medium) {
+        margin-bottom: 3em;
+      }
+    }
+  }
+
+  .icons {
+    @media screen and (max-width: $break-medium) {
+      text-align: center !important;
+      margin-left: 1em;
+    }
+  }
+
+}

@@ -1,0 +1,54 @@
+/*
+  Media Queries break sizes
+*/
+
+$break-extra-small: 320px;
+$break-small: 480px;
+$break-medium: 768px;
+$break-large: 1024px;
+
+/*
+  No gutter class
+*/
+.no-gutter {
+  padding-left:0 !important;
+  padding-right:0 !important;
+}
+
+/*
+  Font Antialiased
+*/
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+  Smooth Scrolling
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+
+/*
+  Component
+*/
+@import "component/font.scss";
+@import "component/size.scss";
+@import "component/color.scss";
+@import "component/text.scss";
+@import "component/button.scss";
+@import "component/background.scss";
+@import "component/images.scss";
+
+/*
+  Molecule
+*/
+@import "molecule/header.scss";
+@import "molecule/nav.scss";
+@import "molecule/footer.scss";
+@import "molecule/carousel.scss";
+@import "molecule/card.scss";
+@import "molecule/description.scss";
+@import "molecule/manifesto.scss";

@@ -1,0 +1,53 @@
+.manifesto {
+  font-family: 'Kenyan Coffee Bold', Arial, sans-serif;
+  color: $color--light-green;
+  font-size: 90px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+
+  @media screen and (max-width: $break-medium) {
+    font-size: 4em;
+    text-align: left !important;
+  }
+
+  span {
+    float: right;
+    text-align: right;
+    display: grid;
+
+    @media screen and (max-width: $break-medium) {
+      float: none;
+      text-align: center;
+    }
+
+    .break {
+      display: grid;
+      margin-top: -40px;
+    }
+  }
+
+  a {
+    color: $color--pink;
+    border-bottom: 10px solid $color--pink;
+    bottom: 40px;
+    font-size: 75px;
+    line-height: 1em;
+    position: absolute;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    @media screen and (max-width: $break-medium) {
+      bottom: initial;
+      position: relative;
+    }
+  }
+
+  .more-about {
+    @media screen and (max-width: $break-small) {
+      text-align: center;
+    }
+  }
+}

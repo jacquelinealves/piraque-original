@@ -1,0 +1,22 @@
+header {
+  color: $color--white;
+  font-family: 'Gotham Bold', Arial, sans-serif;
+  font-size: .8rem;
+
+  @media screen and (max-width: $break-medium) {
+    text-align: center;
+    padding: 1em 0;
+  }
+
+  span.text {
+    @media screen and (max-width: $break-small) {
+      display: block;
+      margin-top: .5em;
+    }
+  }
+
+  .logo {
+    margin-right: 20px;
+  }
+
+}
